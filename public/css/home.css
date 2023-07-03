@@ -1,0 +1,54 @@
+.home {
+    background-color:var(--colorAmarillo);
+}
+
+.home__header__busca{
+    border: solid 2px var(--colorGrisOscuro);
+    background-color: var(--colorGrisClaro);
+    width: 100%;
+    margin-bottom: 1%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+.home__header__subt {
+    text-align: center;
+}
+
+.home__header__img--logo img {
+    width: 25%;
+
+}
+
+.home__main img{
+    width: 30%;
+}
+
+.home__header__a--bar {
+    background-color: var(--colorAzul);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 30px;
+    display: inline-block;
+    font-size: 2.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.home__header__nav--menu ul li {
+width: 15%;
+margin-bottom: 0px;
+font-size: 01rem;
+margin-right: 2%;
+} 
+
+.footer {
+    background-color:var(--colorGrisClaro);
+    text-align: center;
+}
+
+@media (min-width:768px){
+
+}
