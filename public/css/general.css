@@ -17,13 +17,13 @@ li {
 
 a{
     text-decoration: none;
-    color: #ffff;
 }
 
 footer {
-    background-color:var(--colorGrisClaro);
-    text-align: center;
+    background-color: #ffff;
+    color: var(--colorGrisOscuro);
 }
+
 i {
 
     text-align: center;
