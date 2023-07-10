@@ -1,0 +1,30 @@
+:root {
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+}
+
+body {
+    font-family: Roboto;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ffff;
+    color: var(--colorGrisOscuro);
+}
+
+i {
+
+    text-align: center;
+}
