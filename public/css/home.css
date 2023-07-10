@@ -71,8 +71,8 @@
 
 .home__main {
     background-color: #ffff;
-    text-align: center;
     width: 90%;
+    text-align: center;
 }
 
 .home__main h3 {
@@ -83,7 +83,8 @@
 }
 
 .home__main__article {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 1.2px solid #ebebeb;
 }
 
@@ -94,6 +95,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 50%;
+    border: 1.2px solid var(--colorVerde);
 }
 
 .descuento {
@@ -137,3 +139,36 @@
     padding: 1px;
     margin-left: 15px;    
 }
+@media (min-width: 320px){
+
+   
+    .home__header__menu {
+    display: none;
+}
+
+}
+
+@media (min-width: 361px){
+
+    .home__header__bar {
+    display: none;
+}
+
+.home__main__article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+}
+
+@media (min-width: 769px){
+
+    .home__header__bar {
+    display: none;
+}
+    
+.home__main__article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+}
+
