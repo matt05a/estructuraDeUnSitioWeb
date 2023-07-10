@@ -1,7 +1,5 @@
-@media (min-width: 400px){
 .home {
     background-color: var(--colorGrisClaro);
-
 }
 
 .home__header {
@@ -74,7 +72,7 @@
 .home__main {
     background-color: #ffff;
     text-align: center;
-
+    width: 90%;
 }
 
 .home__main h3 {
@@ -82,6 +80,25 @@
     text-transform: none;
     width: 100%;
     margin-top: 50px;
+}
+
+.home__main__article {
+    margin: 10px;
+    border: 1.2px solid #ebebeb;
+}
+
+.home__main__envio {
+    color: var(--colorVerde);
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.descuento {
+    color: var(--colorVerde);
+
 }
 
 .footer__article__end {
@@ -118,7 +135,5 @@
     font-size: 0.75rem;
     text-transform: none;
     padding: 1px;
-    margin-left: 15px;
-}
-
+    margin-left: 15px;    
 }
