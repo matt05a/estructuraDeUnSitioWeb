@@ -1,5 +1,6 @@
 .home {
     background-color: var(--colorGrisClaro);
+    padding:5px;
 }
 
 .home__header {
@@ -14,9 +15,7 @@
     
 }
 
-.home__main img{
-    max-width: 50%;
-}
+
 
 .home__header__barra {
     margin-top: 10px;
@@ -55,7 +54,6 @@
 
 .home__header__bar{
     text-align: center;
-
 }    
 
 .home__header__a--bar {
@@ -71,32 +69,60 @@
 
 .home__main {
     background-color: #ffff;
-    width: 90%;
-    text-align: center;
+    width: 100%;
 }
 
 .home__main h3 {
     font-size: 24px;
     text-transform: none;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+
 }
 
 .home__main__article {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1.2px solid #ebebeb;
+    border: 5px solid var(--colorGrisClaro);
+    padding: 10px;
 }
 
-.home__main__envio {
+
+.home__main img{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+} 
+
+.home__main__article button {
     color: var(--colorVerde);
-    width: 25px;
-    height: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    display: block; 
+    font-size: 16px; 
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--colorVerde);
+    background-color: #fff;
     border-radius: 50%;
-    border: 1.2px solid var(--colorVerde);
+    position: absolute;
+    right: 15%;
+    margin-top: -15px;
 }
+
+.home__main__article h4{
+   margin: 10px 10px 10px;
+   display: flex;
+}
+
+.home__main__info{
+   display: flex;
+   justify-items: space-between;
+   align-items: center;
+}
+
 
 .descuento {
     color: var(--colorVerde);
