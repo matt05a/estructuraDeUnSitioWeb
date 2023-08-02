@@ -1,6 +1,10 @@
 .login__main {
     background-color: var(--colorGrisClaro);
     width: 100%;
+    padding: 5%;
+}
+.login__main--usuario{
+    text-align: center;
 }
 .login--dato {
     width: 60%;
@@ -16,7 +20,7 @@
     text-align: center;
 }
 .login__main--buton{
-    width: 60%;
+    width: 80%;
     background-color: var(--colorCeleste);
     border: none;
     border-radius: 5%;
