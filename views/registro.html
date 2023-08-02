@@ -51,14 +51,17 @@
                     </div>
             <h4>Fecha de Nacimiento</h4>
                 <div class="registro__main--nacimiento">
-                    <input class="login--dato" type="text" name="usuario" id="text" placeholder="Nombre de usuario">
+                    <input class="login--dato" type="date" name="fecha" value="2021-07-22" min="2018-01-01" max="2022-12-31">
                 </div>
                 <div class="registro__main--domicilio">
                     <input class="login--dato" type="text" name="domicilio" id="text" placeholder="Domicilio">
                 </div>
-                <h4>Pefil del usuario</h4>
-                
-                <h4>Intereses</h4>
+            <h4>Pefil del usuario</h4>
+                <div><input type="radio" name="comprador" value="text" />
+                    <p>Comprador</p></div>
+                <div><input type="radio" name="vendedor" value="text" />
+                    <p>Vendedor</p></div>
+            <h4>Intereses</h4>
                 <div><input type="checkbox" name="intereses" value="text" />
                     <p>Electro</p></div>
                 <div><input type="checkbox" name="intereses" value="text" />

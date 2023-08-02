@@ -3,7 +3,7 @@
     width: 100%;
 }
 .login--dato {
-    width: 100%;
+    width: 60%;
     background: var(--colorGrisClaro);
     padding: 5px;
     border-radius: 5px;
@@ -16,6 +16,7 @@
     text-align: center;
 }
 .login__main--buton{
+    width: 60%;
     background-color: var(--colorCeleste);
     border: none;
     border-radius: 5%;

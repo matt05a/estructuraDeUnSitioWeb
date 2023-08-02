@@ -1,0 +1,13 @@
+.login__main {
+    background-color: var(--colorGrisClaro);
+    width: 100%;
+}
+.login--dato {
+    width: 60%;
+    background: var(--colorGrisClaro);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    border: 1px solid var(--colorGrisOscuro);
+    font-size: 20px;
+}
