@@ -10,7 +10,10 @@
 
 body {
     font-family: Roboto;
-    
+    margin: 0px;
+    padding:0px;
+    background-color: var(--colorGrisClaro);
+
 }
 
 li {
