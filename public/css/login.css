@@ -1,4 +1,28 @@
-.login__main--form {
+.login__main {
     background-color: var(--colorGrisClaro);
     width: 100%;
 }
+.login--dato {
+    width: 100%;
+    background: var(--colorGrisClaro);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    border: 1px solid var(--colorGrisOscuro);
+    font-size: 20px;
+}
+
+  .login__main--sesion {
+    text-align: center;
+}
+.login__main--buton{
+    background-color: var(--colorCeleste);
+    border: none;
+    border-radius: 5%;
+    color: var(--colorGrisClaro);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    font-size: 20px;
+    
+    }
