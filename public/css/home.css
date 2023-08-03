@@ -61,7 +61,8 @@
 }
 
 .home__header--banner{
-    width: 100%
+    width: 100%;
+    justify-content: center;
 }
 
 .home__main {
@@ -81,7 +82,7 @@
 }
 
 .home__main__article {
-    border: 5px solid var(--colorGrisClaro);
+    background-color: #fff;
     padding: 10px;
     position: relative;
 }
@@ -107,7 +108,7 @@
     border-radius: 50%;
     position: absolute;
     right: 20px;
-    top: -15px;
+    margin-top: -15px;
 }
 .home__main__article button:hover {
     animation:rotate 2s ease;
@@ -125,26 +126,29 @@
         transform:rotate(0deg);
     }
 }
-
-
-
-.home__main__article h4{
-    margin: 10px 10px 10px;
-    display: flex;
-    display: inline-block;
-
+.precio{
+    font-size: 18px;
+    width:70%;
+}
+.descuento {
+    color: var(--colorVerde);
+    width: 30%;
+    font-size: 16px;
 }
 
 .home__main__info{
-   width: 100%;
-   display: flex;
-   align-items: center;
+    border-top: 1px solid var(--colorGrisClaro);
+    padding: 15px 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
-.descuento {
-    color: var(--colorVerde);
-}
 
+.footer__article{
+    margin-top: 30px;
+}
 .footer__article__end {
     text-align: center;
     color: var(--colorGrisOscuro);
@@ -258,13 +262,13 @@
 .home__main__article:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
-.home__main__info h4{
+.nombre {
     display:block;
     height: 0;
     overflow:hidden;
     transition: all 1s ease;
 }
-.home__main__article:hover h4{
+.nombre:hover{
     height: 20px;
 }
 
@@ -282,7 +286,7 @@
 .home__main__article {
     width: 20%;
 }
-.footer{
+.footer__article{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
