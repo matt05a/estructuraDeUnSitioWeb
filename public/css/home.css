@@ -282,6 +282,13 @@
 .home__main__article {
     width: 20%;
 }
-
+.footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.footer__article__end{
+    width:30%
+}
 }
 
